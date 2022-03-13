@@ -1,0 +1,18 @@
+.advanced_header {
+  padding: 20px;
+}
+
+.advanced_header_link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.advanced_header_link:visited {
+  color: black;
+}
+
+.advanced_header_pages_link_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

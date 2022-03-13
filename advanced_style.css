@@ -1,0 +1,85 @@
+@import 'advanced_header.css';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+}
+
+.msg_box {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.msg_box span {
+  margin-left: 50px;
+  color: rgb(217, 48, 37);
+  font-size: 20px;
+}
+
+.advanced_search_wrapper {
+  width: 60%;
+  padding: 50px;
+}
+
+.advanced_search_inner_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+.advanced_search_first_box,
+.advanced_search_third_box {
+  width: 20%;
+}
+
+.advanced_search_second_box {
+  width: 66%;
+}
+
+.advanced_search_input {
+  width: 100%;
+  height: 30px;
+}
+
+.advanced_search_input:focus {
+  border: 1px solid rgb(48, 121, 237);
+  outline: none;
+  box-shadow: inset 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.advanced_search_first_box {
+  text-align: left;
+  font-size: 14px;
+}
+
+.advanced_search_third_box {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.advanced_search_btn_box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.advanced_search_submit_btn {
+  height: 30px;
+  width: 120px;
+  background-color: rgb(74, 140, 246);
+  border: 1px solid rgb(48, 121, 237);
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+}
+
+.advanced_search_submit_btn:hover {
+  box-shadow: inset 5px 5px 10px 5px rgb(54, 123, 233);
+  border: 1px solid rgb(47, 91, 183);
+}
