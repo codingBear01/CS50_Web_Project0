@@ -1,0 +1,74 @@
+$greyColor: #757575;
+
+%alignColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+%alignEvenly {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main {
+  @extend %alignColumn;
+  height: 60%;
+  width: 60%;
+  margin: 0 auto;
+
+  .google_logo_box {
+    position: relative;
+  }
+
+  form {
+    @extend %alignColumn;
+    padding: 50px;
+    width: 100%;
+  }
+}
+
+.search_field {
+  @extend %alignEvenly;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  width: 50%;
+  height: 40px;
+  border: 1px solid rgb(223, 225, 229);
+  border-radius: 50px;
+
+  &:hover {
+    border: none;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  i {
+    color: $greyColor;
+  }
+}
+
+.glass_icon_box {
+  width: 5%;
+  text-align: center;
+}
+
+.input_box {
+  display: flex;
+  align-items: center;
+  width: 70%;
+
+  input {
+    width: 95%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+  }
+}
+
+.icon_wrapper {
+  @extend %alignEvenly;
+  width: 20%;
+}

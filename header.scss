@@ -1,3 +1,5 @@
+$headerLinksColor: black;
+
 header {
   display: flex;
   justify-content: flex-end;
@@ -9,11 +11,9 @@ header a {
   margin-left: 20px;
   text-decoration: none;
   font-weight: 600;
-  color: black;
+  color: $headerLinksColor;
 }
 
 a:visited {
-  color: black;
+  color: $headerLinksColor;
 }
-
-/*# sourceMappingURL=header.css.map */

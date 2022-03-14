@@ -1,0 +1,65 @@
+main form, main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon_wrapper, .search_field {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main {
+  height: 60%;
+  width: 60%;
+  margin: 0 auto;
+}
+main .google_logo_box {
+  position: relative;
+}
+main form {
+  padding: 50px;
+  width: 100%;
+}
+
+.search_field {
+  margin-bottom: 30px;
+  padding-left: 10px;
+  width: 50%;
+  height: 40px;
+  border: 1px solid #dfe1e5;
+  border-radius: 50px;
+}
+.search_field:hover {
+  border: none;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.search_field i {
+  color: #757575;
+}
+
+.glass_icon_box {
+  width: 5%;
+  text-align: center;
+}
+
+.input_box {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.input_box input {
+  width: 95%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.icon_wrapper {
+  width: 20%;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,21 @@
+$google_blue: rgb(66, 133, 244);
+
+.img_chr {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: $google_blue;
+}
+
+.icon_box button {
+  border: none;
+  background: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  i {
+    color: $google_blue;
+  }
+}

@@ -1,0 +1,19 @@
+.img_chr {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: #4285f4;
+}
+
+.icon_box button {
+  border: none;
+  background: none;
+}
+.icon_box button:hover {
+  cursor: pointer;
+}
+.icon_box button i {
+  color: #4285f4;
+}
+
+/*# sourceMappingURL=img_search.css.map */
